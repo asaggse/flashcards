@@ -87,3 +87,40 @@ textarea:focus {
     color: #072c81;
     border-color: #d9ff66;
 }
+
+/* Primary Button */
+button,
+.answer-box {
+    width: 100%;
+    padding: 16px;
+    border-radius: 16px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.primary-button {
+    color: #d9ff66;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    background-color: #072c81;
+    text-transform: uppercase;
+    font-family: 'Unbouded', sans-serif;
+}
+
+.answer-button {
+    color: #ffffff;
+    background-color: #1475fd;
+    font-family: 'Inter', sans-serif;
+}
+
+.answer-box {
+    color: #072c81;
+    background-color: #e9f2ff;
+    font-weight: 400;
+}
