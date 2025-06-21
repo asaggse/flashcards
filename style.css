@@ -124,3 +124,26 @@ button,
     background-color: #e9f2ff;
     font-weight: 400;
 }
+
+/* Loading Screen */
+.loading-screen {
+    text-align: center;
+}
+.loading-screen img {
+    margin-top: 100px;
+    animation: pulse 0.5s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.question {
+    color: #ffffff;
+    font-size: 18px;
+}
