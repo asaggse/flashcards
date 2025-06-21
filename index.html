@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards</title>
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Unbounded:wght@200..900&display=swap"
+        rel="stylesheet">
+    <!-- /Google Fonts -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Intestazioe App -->
+        <header>
+            <img class="boolean-logo" src="img/boolean-logo.png" alt="Logo Boolean">
+            <img class="app-logo" src="img/logo.png" alt="Logo App">
+        </header>
+
+        <main class="building">
+            <!-- Schermata di peparazione -->
+            <div class="building-screen">
+                <div class="card">
+                    <h3 class="card-title">Cosa vuoi imparare?</h3>
+                    <textarea autofocus placeholder="Scrivi qui l'argomento..."></textarea>
+                </div>
+
+                <button class="primary-button" id="generate">
+                    <img src="img/sparkle.svg" alt="Sparkle"> Genera domande
+                </button>
+            </div>
+
+            <!-- Schermata di caricamento -->
+            <div class="loading-screen">
+                <img src="img/logo.png" alt="caricamento">
+            </div>
+
+            <!-- Schermata di risultato -->
+            <div class="result-screen">
+                <div id="result-container">
+                    <!-- Qui ci vanno le card -->
+
+                </div>
+                <button class="primary-button" id="new-cards">nuove card</button>
+            </div>
+            <!-- /Schermata di risultato -->
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
